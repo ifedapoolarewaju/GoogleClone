@@ -68,6 +68,7 @@ body{
 }
 
 
+
 nav{
 	text-align: right;
 	display: block;
@@ -211,4 +212,5 @@ selections by class
 	height: 30px;
 	margin-right: 3%;
 	font-family: sans-serif;
+	margin-bottom: 10%;
 }
