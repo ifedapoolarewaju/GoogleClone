@@ -93,7 +93,6 @@ footer{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 6%;
 	padding-top: 5px;
 
 }
@@ -144,6 +143,10 @@ selections by class
 }
 
 
+.sign-in:hover{
+	border-bottom: 3px solid #4477ff;
+}
+
 /**********************************
  selections by id
  *********************************/
@@ -160,6 +163,10 @@ selections by class
 }
 
 
+#centeral-button button:hover{
+	border: 1px solid #c6c6c6;
+	border-bottom: 2px solid #c6c6c6;
+}
 
 
 #logo{
@@ -210,7 +217,117 @@ selections by class
 
 #centeral-button button{
 	height: 30px;
-	margin-right: 3%;
+	margin-right: 2%;
 	font-family: sans-serif;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
+
+
+/***************************************
+Responsiveness
+***************************************/
+@media screen and (max-width: 560px){
+	#centeral-button{
+		width:80%;
+	}
+
+	#logo{
+		width:70%;
+		margin: 0 auto;
+		padding-bottom: 1%;
+		padding-top: 12.2%;
+	}
+
+
+
+	#search-text{
+		margin: 0 auto;
+		width:80%;
+	}
+
+	footer .left{
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	footer .right{
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+	}
+	footer li{
+		display: block;
+		text-align: center;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer ul{
+		text-align: center;
+	}
+}
+
+
+
+@media screen and (max-width: 800px){
+	#logo{
+		width:40%;
+		margin: 0 auto;
+		padding-bottom: 1%;
+		padding-top: 12.2%;
+	}
+
+
+
+	#search-text{
+		margin: 0 auto;
+		width:50%;
+	}
+
+	#centeral-button{
+	width:40%;
+	margin: 0 auto;
+	padding-top: 2%;
+	}
+
+	#centeral-button button{
+		height: 30px;
+		margin-right: 2%;
+		font-family: sans-serif;
+		margin-bottom: 5%;
+	}
+
+	footer .left{
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	footer .right{
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+	}
+	footer li{
+		display: block;
+		text-align: center;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	footer ul{
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+
